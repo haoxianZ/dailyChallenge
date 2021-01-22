@@ -10,5 +10,5 @@ function check(arr, k){
     return false
 }
 const array = [10,15,7,13];
-
+//faster solution
 console.log(check(array,17))

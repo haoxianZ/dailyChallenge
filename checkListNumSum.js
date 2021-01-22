@@ -11,7 +11,15 @@ function check(arr, k){
 }
 const array = [10,15,7,13];
 //faster solution
-function checkFast(){
-    
+function checkFast(arr,k){
+    let sum=[];
+    for(let i=0;i<arr.length;i++){
+        const diff = k-arr[i];
+        if(arr.includes(diff)){
+            return true
+        }
+    }
+    return false
 }
 console.log(check(array,17))
+console.log(checkFast(array,25))

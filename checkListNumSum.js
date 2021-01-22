@@ -11,4 +11,7 @@ function check(arr, k){
 }
 const array = [10,15,7,13];
 //faster solution
+function checkFast(){
+    
+}
 console.log(check(array,17))
